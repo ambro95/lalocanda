@@ -4280,7 +4280,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;
-  color: blue;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -4505,7 +4504,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #5e5e5e;
+  color: #ff9933;
   background-color: transparent;
 }
 .navbar-default .navbar-text {
