@@ -32,6 +32,7 @@ p {
 }
 
 .provacss{
+    text-align: justify;
     color: #AE0015;
     font-family: 'Dancing Script', cursive;
     font-size: 24px;
