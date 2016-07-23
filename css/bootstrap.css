@@ -1590,18 +1590,6 @@ pre code {
   display: none;
 }
 
-.container1{
-  display: none;
-}
-
-.container2{
-  
-}
-
-.container3{
-  
-}
-
 @media (min-width: 768px) {
   .container {
     width: 750px;
