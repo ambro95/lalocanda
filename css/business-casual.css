@@ -93,8 +93,16 @@ hr {
     background: rgba(255,197,102,0.9);
 }
 
-.box, box1 {
-    display: none;
+.box, .box1 {
+    //display: none;
+}
+
+.box, .box2 {
+    //display: none;
+}
+
+.box, .box3 {
+    //display: none;
 }
 
 .intro-text {
