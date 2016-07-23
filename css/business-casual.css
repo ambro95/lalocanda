@@ -91,7 +91,10 @@ hr {
     padding: 30px 15px;
     //background: #fff;
     background: rgba(255,197,102,0.9);
-    
+}
+
+.box, box1 {
+    display: none;
 }
 
 .intro-text {
