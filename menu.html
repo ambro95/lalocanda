@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="it">
 
@@ -35,14 +34,21 @@
 <body>
 
     <!-- Google translate script -->
-    <div id="google_translate_element"></div><script type="text/javascript">
-    function googleTranslateElementInit() {
-     new google.translate.TranslateElement({pageLanguage: 'it', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-    }
-    </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <div id="google_translate_element"></div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'it',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-    <div class="notranslate"><div class="brand">La Locanda Dei Sognatori</div>
-    <div class="address-bar">Rue du petit San Bernard 16 | Saint-Pierre (AO) | 0165 903865</div></div>
+    <div class="notranslate">
+        <div class="brand">La Locanda Dei Sognatori</div>
+        <div class="address-bar">Rue du petit San Bernard 16 | Saint-Pierre (AO) | 0165 903865</div>
+    </div>
 
     <!-- Navigation -->
     <nav class="navbar navbar-default">
@@ -56,7 +62,9 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <a class="navbar-brand" href="index.html"><div class="notranslate">La Locanda Dei Sognatori</a></div>
+                <a class="navbar-brand" href="index.html">
+                    <div class="notranslate">La Locanda Dei Sognatori</a>
+                </div>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -117,7 +125,7 @@
                             <div class="item">
                                 <img class="img-responsive img-full" src="img/menu3.jpg" alt="">
                             </div>
-                             <div class="item">
+                            <div class="item">
                                 <img class="img-responsive img-full" src="img/menuporcini.jpg" alt="">
                             </div>
                             <div class="item">
@@ -143,7 +151,7 @@
             </div>
         </div>
     </div>
-<!--
+    <!--
         <div class="row">
             <div class="box">
                 <div class="col-lg-12">
@@ -186,9 +194,9 @@
 
     <!-- Script to Activate the Carousel -->
     <script>
-    $('.carousel').carousel({
-        interval: 10000 //changes the speed
-    })
+        $('.carousel').carousel({
+            interval: 10000 //changes the speed
+        })
     </script>
 
 </body>
